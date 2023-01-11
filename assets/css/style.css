@@ -1,16 +1,27 @@
-/**
-* Template Name: iPortfolio - v3.9.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #2c2f3f;
+}
+.empresa{font-weight: 600;
+  color: #6b6e73;}
+
+.logo{
+  display: flex;
+flex-direction: row;
+}
+.year{
+  color: #69686c;
+  margin-left: 3px;
+}
+h4{
+  font-weight: 900;
+}
+.card{
+  background: #f2f2f2;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  margin: 5px;
+  padding: 12px;
 }
 
 a {
@@ -22,7 +33,6 @@ a:hover {
   color: #37b3ed;
   text-decoration: none;
 }
-
 h1,
 h2,
 h3,
@@ -78,7 +88,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #1179ff;
+  background: #b6e3de;
   overflow-y: auto;
 }
 
@@ -101,7 +111,7 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #fff;
+  color: #5d2675;
   text-decoration: none;
 }
 
@@ -163,7 +173,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #2d1366;;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -182,7 +192,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: #480c0c;
 }
 
 .nav-menu a:hover i,
