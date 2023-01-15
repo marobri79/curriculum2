@@ -5,6 +5,9 @@ body {
 }
 .empresa{font-weight: 600;
   color: #6b6e73;}
+.entidad{
+  color: #436889;
+}
 
 .logo{
   display: flex;
